@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5b381b0a-72a0-4ae7-af61-8b2e25058da2")
+	(paper "A")
+	(title_block
+		(title "CMPE2150 PWM Generator - blaxtonfisher1")
+		(date "2025-12-06")
+		(rev "0")
+		(company "Nait CNT")
+		(comment 1 "Brody Laxton")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
