@@ -3440,6 +3440,42 @@
 		(color 0 0 0 0)
 		(uuid "f494c7b5-686c-4687-80d4-53273ac89910")
 	)
+	(no_connect
+		(at 58.42 177.8)
+		(uuid "43a47931-9982-4fc3-a441-1c57065caf23")
+	)
+	(no_connect
+		(at 91.44 180.34)
+		(uuid "67222d26-f13f-4253-9cb3-108e520ec0dc")
+	)
+	(no_connect
+		(at 67.31 180.34)
+		(uuid "6bc11f1c-17df-4cff-8bfa-4703c6ff4915")
+	)
+	(no_connect
+		(at 67.31 175.26)
+		(uuid "85bd62a2-1072-4d29-9c59-6f2760ab322f")
+	)
+	(no_connect
+		(at 91.44 175.26)
+		(uuid "bc62f645-f9c6-4f84-89c1-6f9e6ecd5c67")
+	)
+	(no_connect
+		(at 106.68 177.8)
+		(uuid "cc75ff60-ff11-419c-a107-f82cde0c7dbf")
+	)
+	(no_connect
+		(at 43.18 180.34)
+		(uuid "f7056ce1-7b85-49f0-aa1c-95af8c016498")
+	)
+	(no_connect
+		(at 82.55 177.8)
+		(uuid "f75b7ec3-1236-47bf-80ef-9495191a1057")
+	)
+	(no_connect
+		(at 43.18 175.26)
+		(uuid "fbf81fe4-1a34-4a8b-96e4-c54ed6d60421")
+	)
 	(wire
 		(pts
 			(xy 93.98 63.5) (xy 96.52 63.5)
@@ -4392,6 +4428,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 163.83) (xy 147.32 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6da38bb-3968-4137-abd8-82fe7f2cc6fe")
+	)
+	(wire
+		(pts
 			(xy 148.59 116.84) (xy 148.59 121.92)
 		)
 		(stroke
@@ -4559,6 +4605,110 @@
 			(type default)
 		)
 		(uuid "ff20d2a1-005a-4d48-92bd-4364ee2c8463")
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 99.06 177.8 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12791308-7e3e-4a94-9692-c7f9d399baf7")
+		(property "Reference" "U1"
+			(at 99.06 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 99.06 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 97.79 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 100.33 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 99.06 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b1f31c75-2f43-4bc7-af12-d197544637ee")
+		)
+		(pin "3"
+			(uuid "28dd7c69-860b-4def-bac6-59fdb03ba984")
+		)
+		(pin "1"
+			(uuid "794a43fa-80f9-4033-aafb-d471e16fae70")
+		)
+		(pin "10"
+			(uuid "d814dab3-29a4-427a-83fe-bd2d7adc6fa9")
+		)
+		(pin "13"
+			(uuid "aa0c1376-0b46-439a-9673-69ef1ece6db4")
+		)
+		(pin "9"
+			(uuid "49d8c252-97d3-4aa2-bccc-41298f46ca02")
+		)
+		(pin "5"
+			(uuid "d9c84bcf-bdaf-44ff-b366-eeb9a38ae0dd")
+		)
+		(pin "11"
+			(uuid "ffd292be-d47c-4a48-a585-e0c30ebfaac4")
+		)
+		(pin "8"
+			(uuid "7f4b3261-9fd3-41c3-bbdf-3cdf4aa49d64")
+		)
+		(pin "14"
+			(uuid "78f5cb69-de9c-4ed9-af33-a79351cd628e")
+		)
+		(pin "2"
+			(uuid "f12971a6-6429-41bb-aa3d-a145d4d7b8df")
+		)
+		(pin "6"
+			(uuid "53a42534-7410-4db4-9207-6b43af57eabd")
+		)
+		(pin "7"
+			(uuid "3205fe65-6bbc-40e2-8c26-28419eab241d")
+		)
+		(pin "12"
+			(uuid "9c05e958-0fd6-4cf8-9428-3f457676c114")
+		)
+		(instances
+			(project "PWMGenerator-BrodyLaxton"
+				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
@@ -4968,6 +5118,176 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 132.08 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e5bebe0-b85d-459f-a5ab-430be061891a")
+		(property "Reference" "#PWR03"
+			(at 132.08 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 132.08 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 132.08 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da13c5e6-5fce-418e-96a4-d5d573bb6e7f")
+		)
+		(instances
+			(project ""
+				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 50.8 177.8 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fb2e267-5feb-4c5f-90ae-0f8269349baf")
+		(property "Reference" "U1"
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 50.8 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 49.53 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 52.07 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a0c00c87-b659-49e4-8e82-ecb333229f54")
+		)
+		(pin "3"
+			(uuid "28dd7c69-860b-4def-bac6-59fdb03ba984")
+		)
+		(pin "1"
+			(uuid "794a43fa-80f9-4033-aafb-d471e16fae70")
+		)
+		(pin "10"
+			(uuid "d814dab3-29a4-427a-83fe-bd2d7adc6fa9")
+		)
+		(pin "13"
+			(uuid "aa0c1376-0b46-439a-9673-69ef1ece6db4")
+		)
+		(pin "9"
+			(uuid "49d8c252-97d3-4aa2-bccc-41298f46ca02")
+		)
+		(pin "5"
+			(uuid "875295ec-d220-4769-83b0-022a74ce82c1")
+		)
+		(pin "11"
+			(uuid "ffd292be-d47c-4a48-a585-e0c30ebfaac4")
+		)
+		(pin "8"
+			(uuid "7f4b3261-9fd3-41c3-bbdf-3cdf4aa49d64")
+		)
+		(pin "14"
+			(uuid "78f5cb69-de9c-4ed9-af33-a79351cd628e")
+		)
+		(pin "2"
+			(uuid "b3a57308-996f-4357-8447-69823bc68dc9")
+		)
+		(pin "6"
+			(uuid "53a42534-7410-4db4-9207-6b43af57eabd")
+		)
+		(pin "7"
+			(uuid "3205fe65-6bbc-40e2-8c26-28419eab241d")
+		)
+		(pin "12"
+			(uuid "9c05e958-0fd6-4cf8-9428-3f457676c114")
+		)
+		(instances
+			(project "PWMGenerator-BrodyLaxton"
+				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 27.94 106.68 90)
 		(unit 1)
@@ -5165,6 +5485,110 @@
 				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
 					(reference "#FLG03")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 74.93 177.8 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46b373f2-8dd4-4230-be2a-8141ed80360b")
+		(property "Reference" "U1"
+			(at 74.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 74.93 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 73.66 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 76.2 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 74.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "bad8e6e2-08b2-4733-8f67-ec275da57d2c")
+		)
+		(pin "3"
+			(uuid "28dd7c69-860b-4def-bac6-59fdb03ba984")
+		)
+		(pin "1"
+			(uuid "794a43fa-80f9-4033-aafb-d471e16fae70")
+		)
+		(pin "10"
+			(uuid "d814dab3-29a4-427a-83fe-bd2d7adc6fa9")
+		)
+		(pin "13"
+			(uuid "aa0c1376-0b46-439a-9673-69ef1ece6db4")
+		)
+		(pin "9"
+			(uuid "49d8c252-97d3-4aa2-bccc-41298f46ca02")
+		)
+		(pin "5"
+			(uuid "39e7ad79-1a5f-4369-9db1-b0356a5a7a42")
+		)
+		(pin "11"
+			(uuid "ffd292be-d47c-4a48-a585-e0c30ebfaac4")
+		)
+		(pin "8"
+			(uuid "7f4b3261-9fd3-41c3-bbdf-3cdf4aa49d64")
+		)
+		(pin "14"
+			(uuid "78f5cb69-de9c-4ed9-af33-a79351cd628e")
+		)
+		(pin "2"
+			(uuid "e5d49dd4-d776-4866-8108-6dcbd4248dcb")
+		)
+		(pin "6"
+			(uuid "53a42534-7410-4db4-9207-6b43af57eabd")
+		)
+		(pin "7"
+			(uuid "3205fe65-6bbc-40e2-8c26-28419eab241d")
+		)
+		(pin "12"
+			(uuid "9c05e958-0fd6-4cf8-9428-3f457676c114")
+		)
+		(instances
+			(project "PWMGenerator-BrodyLaxton"
+				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -5442,6 +5866,175 @@
 			(project ""
 				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 139.7 161.29 90)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5027540d-ed2a-468e-a096-9593a20d79e4")
+		(property "Reference" "U3"
+			(at 139.954 159.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 139.954 156.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 137.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 134.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 139.7 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5ccf1381-c756-49f8-9e6a-c979170200c9")
+		)
+		(pin "3"
+			(uuid "28dd7c69-860b-4def-bac6-59fdb03ba984")
+		)
+		(pin "1"
+			(uuid "794a43fa-80f9-4033-aafb-d471e16fae70")
+		)
+		(pin "10"
+			(uuid "d814dab3-29a4-427a-83fe-bd2d7adc6fa9")
+		)
+		(pin "13"
+			(uuid "aa0c1376-0b46-439a-9673-69ef1ece6db4")
+		)
+		(pin "9"
+			(uuid "49d8c252-97d3-4aa2-bccc-41298f46ca02")
+		)
+		(pin "5"
+			(uuid "a537ca72-1306-4ff9-b27e-8cf17d6b2700")
+		)
+		(pin "11"
+			(uuid "ffd292be-d47c-4a48-a585-e0c30ebfaac4")
+		)
+		(pin "8"
+			(uuid "7f4b3261-9fd3-41c3-bbdf-3cdf4aa49d64")
+		)
+		(pin "14"
+			(uuid "78f5cb69-de9c-4ed9-af33-a79351cd628e")
+		)
+		(pin "2"
+			(uuid "ad1b45f6-821c-42f7-91d7-30f3aef34867")
+		)
+		(pin "6"
+			(uuid "53a42534-7410-4db4-9207-6b43af57eabd")
+		)
+		(pin "7"
+			(uuid "3205fe65-6bbc-40e2-8c26-28419eab241d")
+		)
+		(pin "12"
+			(uuid "9c05e958-0fd6-4cf8-9428-3f457676c114")
+		)
+		(instances
+			(project "PWMGenerator-BrodyLaxton"
+				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
+					(reference "U3")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 147.32 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51c7a2da-151e-4802-b5f7-c8dabf5a70cc")
+		(property "Reference" "#PWR06"
+			(at 147.32 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 147.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 147.32 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce1f7830-d358-4e06-b978-ebf935d3a6eb")
+		)
+		(instances
+			(project ""
+				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
