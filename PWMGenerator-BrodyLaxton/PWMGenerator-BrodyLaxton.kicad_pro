@@ -478,7 +478,10 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "GNDPWR": "rgb(255, 21, 23)",
+      "GNDREF": "rgb(255, 42, 231)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
