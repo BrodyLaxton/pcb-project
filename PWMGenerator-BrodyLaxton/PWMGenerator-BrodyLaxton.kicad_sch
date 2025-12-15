@@ -1185,155 +1185,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Polyfuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Polyfuse"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Polyfuse_0_1"
-				(polyline
-					(pts
-						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.762 2.54)
-					(end 0.762 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Polyfuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Potentiometer_US"
 			(pin_names
 				(offset 1.016)
@@ -1845,6 +1696,207 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "NANOSMDC016F-2:NANOSMDC016F-2"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "NANOSMDC016F-2"
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "NANOSMDC016F-2:RESC3115X65N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NANOSMDC016F-2_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3345,12 +3397,6 @@
 		(uuid "73b8888c-4f8a-4bbc-9fea-39f0db86c9c2")
 	)
 	(junction
-		(at 109.22 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77429a75-5830-4e39-9dd2-bc6660352ea9")
-	)
-	(junction
 		(at 191.77 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3379,6 +3425,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "943b93e3-7b32-4e0c-9153-62b646c2f231")
+	)
+	(junction
+		(at 111.76 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9717371c-6380-4d2c-9991-ed77e833205b")
 	)
 	(junction
 		(at 116.84 146.05)
@@ -3439,6 +3491,42 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f494c7b5-686c-4687-80d4-53273ac89910")
+	)
+	(no_connect
+		(at 58.42 177.8)
+		(uuid "43a47931-9982-4fc3-a441-1c57065caf23")
+	)
+	(no_connect
+		(at 93.98 172.72)
+		(uuid "67222d26-f13f-4253-9cb3-108e520ec0dc")
+	)
+	(no_connect
+		(at 67.31 180.34)
+		(uuid "6bc11f1c-17df-4cff-8bfa-4703c6ff4915")
+	)
+	(no_connect
+		(at 67.31 175.26)
+		(uuid "85bd62a2-1072-4d29-9c59-6f2760ab322f")
+	)
+	(no_connect
+		(at 93.98 167.64)
+		(uuid "bc62f645-f9c6-4f84-89c1-6f9e6ecd5c67")
+	)
+	(no_connect
+		(at 109.22 170.18)
+		(uuid "cc75ff60-ff11-419c-a107-f82cde0c7dbf")
+	)
+	(no_connect
+		(at 43.18 180.34)
+		(uuid "f7056ce1-7b85-49f0-aa1c-95af8c016498")
+	)
+	(no_connect
+		(at 82.55 177.8)
+		(uuid "f75b7ec3-1236-47bf-80ef-9495191a1057")
+	)
+	(no_connect
+		(at 43.18 175.26)
+		(uuid "fbf81fe4-1a34-4a8b-96e4-c54ed6d60421")
 	)
 	(wire
 		(pts
@@ -3752,7 +3840,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 97.79) (xy 109.22 97.79)
+			(xy 93.98 97.79) (xy 111.76 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3779,6 +3867,16 @@
 			(type default)
 		)
 		(uuid "3fbc5e35-07dd-4eb4-9452-0a4ce9bad777")
+	)
+	(wire
+		(pts
+			(xy 119.38 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d531c0-fcd0-4ed7-8d42-0bce56af7cbe")
 	)
 	(wire
 		(pts
@@ -3832,23 +3930,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 71.12) (xy 109.22 97.79)
+			(xy 111.76 71.12) (xy 111.76 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "52c92b3c-333f-456a-9730-11675ee39229")
-	)
-	(wire
-		(pts
-			(xy 109.22 97.79) (xy 121.92 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "533dd0b7-79d1-40d7-a68a-0defbd5c032d")
 	)
 	(wire
 		(pts
@@ -3889,16 +3977,6 @@
 			(type default)
 		)
 		(uuid "576cd0db-b515-483d-a55c-8529c6717732")
-	)
-	(wire
-		(pts
-			(xy 116.84 63.5) (xy 121.92 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ba28a7e-d093-4b32-81f3-490c84ed744f")
 	)
 	(wire
 		(pts
@@ -4062,6 +4140,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 62.23) (xy 54.61 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c0011c-a953-4518-a6d4-f5366db12f07")
+	)
+	(wire
+		(pts
 			(xy 35.56 110.49) (xy 35.56 146.05)
 		)
 		(stroke
@@ -4079,6 +4167,16 @@
 			(type default)
 		)
 		(uuid "81dd1774-0f13-4825-9fa5-c0efa77df01d")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 121.92 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83578412-019f-4f20-91d8-e46dfd2a7109")
 	)
 	(wire
 		(pts
@@ -4109,6 +4207,16 @@
 			(type default)
 		)
 		(uuid "86ba26fd-f6db-486c-b50e-0117d05e0df9")
+	)
+	(wire
+		(pts
+			(xy 132.08 161.29) (xy 132.08 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87bd71e2-66eb-45ba-b4a1-d8336760a082")
 	)
 	(wire
 		(pts
@@ -4232,7 +4340,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 62.23) (xy 31.75 62.23)
+			(xy 27.94 62.23) (xy 34.29 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4269,6 +4377,16 @@
 			(type default)
 		)
 		(uuid "b34cda02-41c3-4219-8012-6726ae3a425d")
+	)
+	(wire
+		(pts
+			(xy 147.32 161.29) (xy 147.32 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4cce437-e10b-4e4c-bffa-d3513d4b4b39")
 	)
 	(wire
 		(pts
@@ -4402,16 +4520,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 63.5) (xy 101.6 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da4ec324-145e-49c3-bb7a-856ecf91546c")
-	)
-	(wire
-		(pts
 			(xy 101.6 63.5) (xy 96.52 63.5)
 		)
 		(stroke
@@ -4462,6 +4570,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 63.5) (xy 104.14 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93d3657-db1d-4a8d-88a0-263e94de31c5")
+	)
+	(wire
+		(pts
 			(xy 116.84 146.05) (xy 129.54 146.05)
 		)
 		(stroke
@@ -4509,16 +4627,6 @@
 			(type default)
 		)
 		(uuid "f0cfbc9c-6fce-47af-950e-8d32c5337721")
-	)
-	(wire
-		(pts
-			(xy 39.37 62.23) (xy 54.61 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e25865-d0e4-4d16-a0cf-142413d9b163")
 	)
 	(wire
 		(pts
@@ -4620,6 +4728,72 @@
 			(project "PWMGenerator-BrodyLaxton"
 				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 132.08 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a0fd5f1-9711-46ab-9797-93b8bd8a7971")
+		(property "Reference" "#PWR03"
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 132.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 132.08 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25189577-206e-4f48-83ee-a8d7d17cc172")
+		)
+		(instances
+			(project ""
+				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4759,7 +4933,7 @@
 			)
 		)
 		(property "Sim.Params" "AC Source"
-			(at 12.192 98.044 0)
+			(at 14.478 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,6 +5142,214 @@
 		)
 	)
 	(symbol
+		(lib_id "Comparator:LM339")
+		(at 50.8 177.8 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fb2e267-5feb-4c5f-90ae-0f8269349baf")
+		(property "Reference" "U1"
+			(at 50.8 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 50.8 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 49.53 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 52.07 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 50.8 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a0c00c87-b659-49e4-8e82-ecb333229f54")
+		)
+		(pin "3"
+			(uuid "28dd7c69-860b-4def-bac6-59fdb03ba984")
+		)
+		(pin "1"
+			(uuid "794a43fa-80f9-4033-aafb-d471e16fae70")
+		)
+		(pin "10"
+			(uuid "d814dab3-29a4-427a-83fe-bd2d7adc6fa9")
+		)
+		(pin "13"
+			(uuid "aa0c1376-0b46-439a-9673-69ef1ece6db4")
+		)
+		(pin "9"
+			(uuid "49d8c252-97d3-4aa2-bccc-41298f46ca02")
+		)
+		(pin "5"
+			(uuid "875295ec-d220-4769-83b0-022a74ce82c1")
+		)
+		(pin "11"
+			(uuid "ffd292be-d47c-4a48-a585-e0c30ebfaac4")
+		)
+		(pin "8"
+			(uuid "7f4b3261-9fd3-41c3-bbdf-3cdf4aa49d64")
+		)
+		(pin "14"
+			(uuid "78f5cb69-de9c-4ed9-af33-a79351cd628e")
+		)
+		(pin "2"
+			(uuid "b3a57308-996f-4357-8447-69823bc68dc9")
+		)
+		(pin "6"
+			(uuid "53a42534-7410-4db4-9207-6b43af57eabd")
+		)
+		(pin "7"
+			(uuid "3205fe65-6bbc-40e2-8c26-28419eab241d")
+		)
+		(pin "12"
+			(uuid "9c05e958-0fd6-4cf8-9428-3f457676c114")
+		)
+		(instances
+			(project "PWMGenerator-BrodyLaxton"
+				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 101.6 170.18 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "300c984d-2bf3-4410-8f18-bec07cad0e26")
+		(property "Reference" "U1"
+			(at 101.6 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 101.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 100.33 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 102.87 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 101.6 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "bad8e6e2-08b2-4733-8f67-ec275da57d2c")
+		)
+		(pin "3"
+			(uuid "28dd7c69-860b-4def-bac6-59fdb03ba985")
+		)
+		(pin "1"
+			(uuid "794a43fa-80f9-4033-aafb-d471e16fae71")
+		)
+		(pin "10"
+			(uuid "84df4b54-d958-45f2-8931-4429f951bcba")
+		)
+		(pin "13"
+			(uuid "ef7da18f-40ee-46f4-9b7d-a21d8ed34676")
+		)
+		(pin "9"
+			(uuid "49d8c252-97d3-4aa2-bccc-41298f46ca03")
+		)
+		(pin "5"
+			(uuid "39e7ad79-1a5f-4369-9db1-b0356a5a7a42")
+		)
+		(pin "11"
+			(uuid "23184f12-4acd-4595-8335-71a5d8e5c74c")
+		)
+		(pin "8"
+			(uuid "7f4b3261-9fd3-41c3-bbdf-3cdf4aa49d65")
+		)
+		(pin "14"
+			(uuid "78f5cb69-de9c-4ed9-af33-a79351cd628f")
+		)
+		(pin "2"
+			(uuid "e5d49dd4-d776-4866-8108-6dcbd4248dcb")
+		)
+		(pin "6"
+			(uuid "53a42534-7410-4db4-9207-6b43af57eabe")
+		)
+		(pin "7"
+			(uuid "3205fe65-6bbc-40e2-8c26-28419eab241e")
+		)
+		(pin "12"
+			(uuid "9c05e958-0fd6-4cf8-9428-3f457676c115")
+		)
+		(instances
+			(project "PWMGenerator-BrodyLaxton"
+				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
+					(reference "U1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 27.94 106.68 90)
 		(unit 1)
@@ -5165,6 +5547,110 @@
 				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
 					(reference "#FLG03")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 74.93 177.8 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46b373f2-8dd4-4230-be2a-8141ed80360b")
+		(property "Reference" "U1"
+			(at 74.93 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 74.93 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 73.66 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 76.2 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 74.93 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "bad8e6e2-08b2-4733-8f67-ec275da57d2d")
+		)
+		(pin "3"
+			(uuid "28dd7c69-860b-4def-bac6-59fdb03ba986")
+		)
+		(pin "1"
+			(uuid "794a43fa-80f9-4033-aafb-d471e16fae72")
+		)
+		(pin "10"
+			(uuid "d814dab3-29a4-427a-83fe-bd2d7adc6faa")
+		)
+		(pin "13"
+			(uuid "aa0c1376-0b46-439a-9673-69ef1ece6db5")
+		)
+		(pin "9"
+			(uuid "49d8c252-97d3-4aa2-bccc-41298f46ca04")
+		)
+		(pin "5"
+			(uuid "39e7ad79-1a5f-4369-9db1-b0356a5a7a43")
+		)
+		(pin "11"
+			(uuid "ffd292be-d47c-4a48-a585-e0c30ebfaac5")
+		)
+		(pin "8"
+			(uuid "7f4b3261-9fd3-41c3-bbdf-3cdf4aa49d66")
+		)
+		(pin "14"
+			(uuid "78f5cb69-de9c-4ed9-af33-a79351cd6290")
+		)
+		(pin "2"
+			(uuid "e5d49dd4-d776-4866-8108-6dcbd4248dcc")
+		)
+		(pin "6"
+			(uuid "53a42534-7410-4db4-9207-6b43af57eabf")
+		)
+		(pin "7"
+			(uuid "3205fe65-6bbc-40e2-8c26-28419eab241f")
+		)
+		(pin "12"
+			(uuid "9c05e958-0fd6-4cf8-9428-3f457676c116")
+		)
+		(instances
+			(project "PWMGenerator-BrodyLaxton"
+				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -5443,6 +5929,109 @@
 				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
 					(reference "R6")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 139.7 161.29 90)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5027540d-ed2a-468e-a096-9593a20d79e4")
+		(property "Reference" "U1"
+			(at 139.954 159.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 139.954 156.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 137.16 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 134.62 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 139.7 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5ccf1381-c756-49f8-9e6a-c979170200c9")
+		)
+		(pin "3"
+			(uuid "28dd7c69-860b-4def-bac6-59fdb03ba987")
+		)
+		(pin "1"
+			(uuid "794a43fa-80f9-4033-aafb-d471e16fae73")
+		)
+		(pin "10"
+			(uuid "d814dab3-29a4-427a-83fe-bd2d7adc6fab")
+		)
+		(pin "13"
+			(uuid "aa0c1376-0b46-439a-9673-69ef1ece6db6")
+		)
+		(pin "9"
+			(uuid "49d8c252-97d3-4aa2-bccc-41298f46ca05")
+		)
+		(pin "5"
+			(uuid "a537ca72-1306-4ff9-b27e-8cf17d6b2700")
+		)
+		(pin "11"
+			(uuid "ffd292be-d47c-4a48-a585-e0c30ebfaac6")
+		)
+		(pin "8"
+			(uuid "7f4b3261-9fd3-41c3-bbdf-3cdf4aa49d67")
+		)
+		(pin "14"
+			(uuid "78f5cb69-de9c-4ed9-af33-a79351cd6291")
+		)
+		(pin "2"
+			(uuid "ad1b45f6-821c-42f7-91d7-30f3aef34867")
+		)
+		(pin "6"
+			(uuid "53a42534-7410-4db4-9207-6b43af57eac0")
+		)
+		(pin "7"
+			(uuid "3205fe65-6bbc-40e2-8c26-28419eab2420")
+		)
+		(pin "12"
+			(uuid "9c05e958-0fd6-4cf8-9428-3f457676c117")
+		)
+		(instances
+			(project "PWMGenerator-BrodyLaxton"
+				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
+					(reference "U1")
+					(unit 5)
 				)
 			)
 		)
@@ -5800,6 +6389,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 147.32 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68f999d6-cd88-47f4-b149-8ee7fc4a9ead")
+		(property "Reference" "#PWR06"
+			(at 147.32 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 147.32 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 147.32 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3e01831-1ba3-41d5-99a8-73f8a575e195")
+		)
+		(instances
+			(project ""
+				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 219.71 91.44 90)
 		(unit 1)
@@ -5924,43 +6579,43 @@
 			(uuid "7b990c8c-dcfa-45b9-a0e7-54191dbdb3e6")
 		)
 		(pin "3"
-			(uuid "28dd7c69-860b-4def-bac6-59fdb03ba984")
+			(uuid "28dd7c69-860b-4def-bac6-59fdb03ba988")
 		)
 		(pin "1"
-			(uuid "794a43fa-80f9-4033-aafb-d471e16fae70")
+			(uuid "794a43fa-80f9-4033-aafb-d471e16fae74")
 		)
 		(pin "10"
-			(uuid "d814dab3-29a4-427a-83fe-bd2d7adc6fa9")
+			(uuid "d814dab3-29a4-427a-83fe-bd2d7adc6fac")
 		)
 		(pin "13"
-			(uuid "aa0c1376-0b46-439a-9673-69ef1ece6db4")
+			(uuid "aa0c1376-0b46-439a-9673-69ef1ece6db7")
 		)
 		(pin "9"
-			(uuid "49d8c252-97d3-4aa2-bccc-41298f46ca02")
+			(uuid "49d8c252-97d3-4aa2-bccc-41298f46ca06")
 		)
 		(pin "5"
 			(uuid "bfc34e5d-4c1c-4ea9-b804-afecf5f96056")
 		)
 		(pin "11"
-			(uuid "ffd292be-d47c-4a48-a585-e0c30ebfaac4")
+			(uuid "ffd292be-d47c-4a48-a585-e0c30ebfaac7")
 		)
 		(pin "8"
-			(uuid "7f4b3261-9fd3-41c3-bbdf-3cdf4aa49d64")
+			(uuid "7f4b3261-9fd3-41c3-bbdf-3cdf4aa49d68")
 		)
 		(pin "14"
-			(uuid "78f5cb69-de9c-4ed9-af33-a79351cd628e")
+			(uuid "78f5cb69-de9c-4ed9-af33-a79351cd6292")
 		)
 		(pin "2"
 			(uuid "d29dc341-4333-4c43-ad9e-d1ff176d32d0")
 		)
 		(pin "6"
-			(uuid "53a42534-7410-4db4-9207-6b43af57eabd")
+			(uuid "53a42534-7410-4db4-9207-6b43af57eac1")
 		)
 		(pin "7"
-			(uuid "3205fe65-6bbc-40e2-8c26-28419eab241d")
+			(uuid "3205fe65-6bbc-40e2-8c26-28419eab2421")
 		)
 		(pin "12"
-			(uuid "9c05e958-0fd6-4cf8-9428-3f457676c114")
+			(uuid "9c05e958-0fd6-4cf8-9428-3f457676c118")
 		)
 		(instances
 			(project ""
@@ -5972,77 +6627,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 35.56 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8374f4f2-5a75-4060-a451-e42d76412a18")
-		(property "Reference" "F1"
-			(at 35.56 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Polyfuse"
-			(at 35.56 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_Bourns_MF-SM_7.98x5.44mm"
-			(at 40.64 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 35.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b68b7c21-9100-463d-a127-c74e900cea1c")
-		)
-		(pin "1"
-			(uuid "acf1372a-5563-4e60-9e79-9dd39842e801")
-		)
-		(instances
-			(project ""
-				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:LM7805_TO220")
-		(at 109.22 63.5 0)
+		(at 111.76 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6050,7 +6636,7 @@
 		(dnp no)
 		(uuid "86364d75-1afa-47d1-8238-38fe68bf83a2")
 		(property "Reference" "U2"
-			(at 109.22 57.15 0)
+			(at 111.76 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +6644,7 @@
 			)
 		)
 		(property "Value" "LM7805_TO220"
-			(at 109.728 60.198 0)
+			(at 112.268 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +6652,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 109.22 57.785 0)
+			(at 111.76 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +6662,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
-			(at 109.22 64.77 0)
+			(at 111.76 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6085,7 +6671,7 @@
 			)
 		)
 		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"
-			(at 109.22 63.5 0)
+			(at 111.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +7464,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c9175fd2-da4d-447b-a1ee-0bcc12ea2724")
 		(property "Reference" "#FLG01"
 			(at 20.955 83.82 0)
@@ -6890,7 +7475,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 19.05 83.8199 90)
+			(at 22.352 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7228,6 +7813,73 @@
 			(project ""
 				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOSMDC016F-2:NANOSMDC016F-2")
+		(at 41.91 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebb5f16a-7933-4531-a4f2-259873c92cf8")
+		(property "Reference" "R12"
+			(at 41.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NANOSMDC016F-2"
+			(at 41.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RG300"
+			(at 41.148 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71f8d345-9b3f-44ba-947f-a1ecfb7cf5a1")
+		)
+		(pin "2"
+			(uuid "45ac1ad3-9109-4782-acaf-47bd82201c5d")
+		)
+		(instances
+			(project ""
+				(path "/5b381b0a-72a0-4ae7-af61-8b2e25058da2"
+					(reference "R12")
 					(unit 1)
 				)
 			)
